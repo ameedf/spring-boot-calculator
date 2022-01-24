@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: math-functions-service
+  config:
+    import: optional:configserver:http://localhost:8888

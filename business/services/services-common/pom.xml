@@ -7,18 +7,14 @@
 		<groupId>com.ameed</groupId>
 		<version>1.0</version>
 	</parent>
-	<artifactId>math-functions-service</artifactId>
+	<artifactId>services-common</artifactId>
 	<dependencies>
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.ameed</groupId>
-			<artifactId>services-common</artifactId>
-			<version>1.0</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -35,4 +31,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>

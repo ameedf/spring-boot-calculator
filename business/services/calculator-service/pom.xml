@@ -7,16 +7,17 @@
 		<groupId>com.ameed</groupId>
 		<version>1.0</version>
 	</parent>
-	<artifactId>math-functions-service</artifactId>
+	<artifactId>calculator-service</artifactId>
+
 	<dependencies>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>com.ameed</groupId>
 			<artifactId>services-common</artifactId>
 			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 	</dependencies>
 	<build>
