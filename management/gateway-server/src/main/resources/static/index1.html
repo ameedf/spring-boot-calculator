@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+	</head>
+	<body>
+		<h1>Service 1</h1>
+		<button onclick="fetchFromMathService()">Call math function service</button>
+		<div id="msg">No message yet</div>
+		<script>
+			function fetchFromMathService() {
+				fetch("/math-functions-service/math-functions/test")
+				.then(t => t.text())
+				.then(txt => document.getElementById("msg").innerText = txt);
+			}
+		</script>
+	</body>
+</html>

@@ -17,7 +17,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "MATH_FUNCTIONS", schema = "calculator")
+@Table(name = "MATH_FUNCTIONS")
 public class MathFunction extends AbstractEntity {
 
     @Enumerated(EnumType.STRING)

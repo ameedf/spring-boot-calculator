@@ -27,6 +27,11 @@ public class MathFunctionsController {
     private final AmqpTemplate amqpTemplate;
     private final RestTemplate restTemplate;
 
+    @GetMapping("/test")
+    public String test() {
+        return "Hello from " + MathFunctionsController.class.getSimpleName();
+    }
+
     @PostMapping
     public MathFunction createMathFunction(@RequestBody MathFunction newFunction) {
         return functionRepository.save(newFunction);

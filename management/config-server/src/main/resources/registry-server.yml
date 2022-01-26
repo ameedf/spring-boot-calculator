@@ -4,3 +4,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1

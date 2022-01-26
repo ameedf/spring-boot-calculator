@@ -16,6 +16,7 @@
 	<modules>
 		<module>config-server</module>
 		<module>registry-server</module>
+		<module>gateway-server</module>
 	</modules>
 
 	<dependencies>

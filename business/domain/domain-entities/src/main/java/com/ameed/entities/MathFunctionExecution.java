@@ -16,7 +16,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "FUNC_EXECUTIONS", schema = "calculator")
+@Table(name = "FUNC_EXECUTIONS")
 public class MathFunctionExecution extends AbstractEntity {
 
     @ManyToOne

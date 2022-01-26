@@ -15,4 +15,10 @@ public class CalculatorController {
     public Long execute(@PathVariable Long execId) {
         return calculatorService.calculate(execId);
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "Hello from " + CalculatorController.class.getSimpleName();
+    }
+
 }
